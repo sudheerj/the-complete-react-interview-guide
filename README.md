@@ -14,16 +14,17 @@ __Table of Contents__
     * Interview tips
 
 * [Chapter 2, Understanding ReactJS fundamentals and its major features](https://github.com/sudheerj/the-complete-react-interview-guide/tree/master/chapter2)
-    * Prerequisites for ReactJS
+    * Prerequisites to ReactJS
     * Introduce ReactJS and JSX
-    * State, Props, class and functional components
-    * Importance of keys
-    * Event handling
-    * Understand Virtual DOM 
-    * Unidirectional data flow policy
-    * Access DOM(Refs) 
-    * React context API
-    * Server side rendering(SSR) 
+    * Building views with elements and components
+    * Controlling the component data using props and state
+    * Knowing the importance of key prop
+    * Learning event handling 
+    * Understanding Virtual DOM 
+    * Difference between Unidirectional data flow and bidirectional data flow 
+    * Accessing DOM elements in React
+    * Describing how to manage state globally using Context API 
+    * Understanding Server-side rendering technique 
 
 * [Chapter 3, Hooks: Bring state, lifecycle and other features in functional components](https://github.com/sudheerj/the-complete-react-interview-guide/tree/master/chapter3)
     * Introduction of Hooks and their purpose

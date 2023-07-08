@@ -27,18 +27,15 @@ __Table of Contents__
     * Understanding Server-side rendering technique 
 
 * [Chapter 3, Hooks: Bring state, lifecycle and other features in functional components](https://github.com/sudheerj/the-complete-react-interview-guide/tree/master/chapter3)
-    * Introduction of Hooks and their purpose
-    * useState hook
-    * useEffect hook
-    * useContext hook
-    * useReducer hook
-    * useCallback hook
-    * useMemo hook
-    * useRef hook
-    * useLayoutEffect hook
-    * useDebugValue hook
-    * Third-party hooks: useImmer, UseNavigate
-    * Build your own hooks
+    * Introduction to Hooks and their purpose
+    * Local state management using hooks
+    * Global state management using hooks
+    * Performing side-effects in application
+    * Accessing DOM nodes using Ref hooks
+    * Optimizing the application performance
+    * Learning about popular third-party hooks
+    * Building your own hooks
+    * Troubleshooting and debugging hooks
 
 * [Chapter 4, Handling routing and internationalisation](https://github.com/sudheerj/the-complete-react-interview-guide/tree/master/chapter4)
     * Navigating screens and introduction to React Router
@@ -51,19 +48,20 @@ __Table of Contents__
     * Passing arguments and placeholders
 
 * [Chapter 5, Advanced concepts of ReactJS](https://github.com/sudheerj/the-complete-react-interview-guide/tree/master/chapter5)
-    * Error boundaries 
-    * Portals
-    * Higher order components
-    * Concurrent rendering
-    * Forwarding refs
-    * Code splitting
+    * Exploring portals
+    * Understanding error boundaries  
+    * Managing asynchronous actions with suspense API
+    * Optimizing rendering performance using concurrent rendering
+    * Debugging React applications with Profiler API
+    * Strict mode
+    * Static type checking
     * React in mobile environment and its features
 
 * [Chapter 6, Redux: The best state management solution](https://github.com/sudheerj/the-complete-react-interview-guide/tree/master/chapter6)
-    * Understand Flux pattern and Redux
-    * Core principles of Redux and it’s components
-    * Redux middlewares: Saga and Thunk
-    * Redux  DevTools and testing
+    * Understanding Flux pattern and Redux
+    * Core principles of Redux, components and APIs
+    * Redux middleware: Saga and Thunk
+    * Debugging applications using Redux DevTools
 
 * [Chapter 7, Different approaches to apply CSS in ReactJS](https://github.com/sudheerj/the-complete-react-interview-guide/tree/master/chapter7)
     * Different solutions to apply CSS

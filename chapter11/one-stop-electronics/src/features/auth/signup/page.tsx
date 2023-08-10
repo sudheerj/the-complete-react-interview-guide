@@ -7,11 +7,14 @@ import MyInputText from "@/components/input/input"
 import MyButton from "@/components/button/button"
 
 import { SignUpContainer, LoginLink, MyButtonsContainer } from "./page.styles"
-import { signUpEmailAndPassword } from "@/backend/firebase/auth/auth"
+import { signUpEmailAndPassword } from "@/backend/firebase/api/auth"
 import { insertUserDataFromAuth } from "@/backend/firebase/api/utils"
 import { useNavigator } from "@/app/store/hooks"
 import { InfoContainer } from "@/global.styles"
-import { AUTH_EMAIL_ALREADY_IN_USE_MSG, AUTH_WEAK_PASSWORD_MSG } from "@/constants"
+import {
+  AUTH_EMAIL_ALREADY_IN_USE_MSG,
+  AUTH_WEAK_PASSWORD_MSG,
+} from "@/constants"
 
 const defaultFormFields = {
   displayName: "",

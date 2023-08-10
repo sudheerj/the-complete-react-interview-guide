@@ -10,7 +10,7 @@ import { setCurrentLocale } from "@/app/store/user/user.slice"
 import { ReactComponent as Logo } from "@/assets/one-stop-electronics.svg"
 import { ReactComponent as ShoppingCartIcon } from "@/assets/shopping-cart.svg"
 import { ReactComponent as UserProfileIcon } from "@/assets/user-profile-avatar.svg"
-import { signOutUser } from "@/backend/firebase/auth/auth"
+import { signOutUser } from "@/backend/firebase/api/auth"
 
 import {
   NavContainer,

@@ -17,6 +17,12 @@ import { Product } from "@/app/store/product/product.types"
 
 export const db = getFirestore()
 
+export type UserInfo = {
+  displayName: string
+  createdAt: Date
+  email: string
+}
+
 export const insertProductsData = async <T extends Product>(
   collectionKey: string,
   productItems: T[],

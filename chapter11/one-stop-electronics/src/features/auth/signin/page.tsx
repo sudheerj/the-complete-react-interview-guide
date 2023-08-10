@@ -6,7 +6,7 @@ import { AUTH_INVALID_PASSWORD_MSG, AUTH_USER_NOT_FOUND_MSG } from "@/constants"
 import {
   signInEmailAndPassword,
   signInGooglePopup,
-} from "@/backend/firebase/auth/auth"
+} from "@/backend/firebase/api/auth"
 import { useNavigator } from "@/app/store/hooks"
 import { SignInContainer, MyButtonsContainer, SignupLink } from "./page.styles"
 import { InfoContainer } from "@/global.styles"
@@ -42,7 +42,9 @@ const SignIn = () => {
     } catch (error) {
       if ((error as AuthError).code === AuthErrorCodes.USER_DELETED) {
         alert(AUTH_USER_NOT_FOUND_MSG)
-      } else if ((error as AuthError).code === AuthErrorCodes.INVALID_PASSWORD) {
+      } else if (
+        (error as AuthError).code === AuthErrorCodes.INVALID_PASSWORD
+      ) {
         alert(AUTH_INVALID_PASSWORD_MSG)
       } else {
         alert(`User login encountered an error: ${error}`)
